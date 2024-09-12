@@ -1,0 +1,80 @@
+.nav-items, .nav-link{
+    color: black;
+    font-size: 110%;
+}
+    
+.contact-us{
+    background-color:rgb(242, 248, 255);
+}
+
+#font-color{
+    color: black;
+    font-size:x-large;
+}
+
+footer{
+    font-size: larger;
+    text-align: center;
+}
+
+.logo{
+    width:20%;
+
+}
+
+#button{
+    background-color:rgb(165, 213, 245);
+    color: black;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+#button:hover{
+    transform: scale(1.1)
+
+}
+
+
+.col:hover{
+    transform: scale(1.1);
+}
+
+#featured-3{
+
+    display: none;
+}
+
+
+@media all and (max-width: 510px){
+
+    .logo{
+        width: 30%;
+    }
+
+    .nav-items, .nav-link{
+        font-size: 80%;
+    }
+
+    #font-color{
+        font-size: large;
+    }
+
+
+
+    
+}
+
+@media all and (max-width: 500px){
+
+    #featured-3{
+        font-size: 100%;
+        display: inline-block;
+    }
+
+    #products{
+        display: none;
+    }
+}
+
+
+
